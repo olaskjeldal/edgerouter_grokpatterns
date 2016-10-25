@@ -1,0 +1,2 @@
+NETFILTERMAC %{COMMONMAC:firewall_dst_mac}:%{COMMONMAC:firewall_src_mac}:%{ETHTYPE:firewall_ethtype}
+ETHTYPE (?:(?:[A-Fa-f0-9]{2}):(?:[A-Fa-f0-9]{2}):(?:[A-Fa-f0-9]{2}):(?:[A-Fa-f0-9]{2}):(?:[A-Fa-f0-9]{2}):(?:[A-Fa-f0-9]{2})|(?:[A-Fa-f0-9]{2}):(?:[A-Fa-f0-9]{2}))
